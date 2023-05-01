@@ -1,0 +1,23 @@
+.button {
+  border-radius: 29px;
+  width: 85px;
+  height: 25px;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+  font-weight: 600;
+}
+.button p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 12px;
+}
+.dangerBtn {
+  border: 2px solid var(--remove-btn-color);
+  color: var(--remove-btn-color);
+}
+.generalBtn {
+  border: 2px solid #2612dd;
+  color: #2612dd !important;
+}

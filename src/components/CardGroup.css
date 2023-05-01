@@ -1,0 +1,33 @@
+.cardGroup {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 4rem;
+  align-items: center;
+}
+.automated {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--automated-origin-text);
+}
+.manual {
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--manual-origin-text);
+}
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin: 4px 0px;
+  color: var(--card-title-text);
+}
+.intents {
+  font-size: 14px;
+  display: block;
+  color: var(--card-subtext);
+}

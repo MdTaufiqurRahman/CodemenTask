@@ -1,0 +1,12 @@
+.CardWrapper {
+    width: 240px;
+    height: 195px;
+    border-radius: 5px;
+    border : 1px solid #e6e6e6;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    background-color: var(--card-body-bg);
+}
+
+.CardWrapper:hover{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+}

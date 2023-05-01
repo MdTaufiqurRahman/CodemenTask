@@ -1,0 +1,9 @@
+.cardFooter {
+  background-color: var(--card-footer-bg);
+  padding-left: 1rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  margin-top: 4px;
+}

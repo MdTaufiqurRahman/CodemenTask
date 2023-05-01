@@ -1,0 +1,18 @@
+body {
+  --remove-btn-color: #dc2c00;
+  --view-btn-color: #0045ca;
+  --automated-origin-text: #00b287;
+  --manual-origin-text: #8738c5;
+  --card-footer-bg: #f8fafe;
+  --card-body-bg: #fff;
+  --card-title-text: #07114b;
+  /* footer and body subtext */
+  --card-subtext: #6b747f;
+  --primary-font: "Averta";
+  /* Search Feature */
+  --search-border-color: #00b4cc;
+  --search-border-color-focus: #00b4cc;
+  --search-text-color: #9dbfaf;
+  --search-btn-bg-color: #00b4cc;
+  --search-btn-text-color: #fff;
+}
