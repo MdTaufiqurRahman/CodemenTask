@@ -1,5 +1,11 @@
 # <p  align="center">PremiseHQ-Frontend-Assignment 🚀🚀</p>
 
+## Screenshots
+
+![Readme_Banner1](./src/assets/readme/Screenshot_1.png)
+![Readme_Banner1](./src/assets/readme/Screenshot_2.png)
+![Readme_Banner1](./src/assets/readme/Screenshot_3.png)
+
 ### Installation 💻
 
 1. Clone the repository
