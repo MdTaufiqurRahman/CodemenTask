@@ -1,4 +1,4 @@
-# <p  align="center">Premise-Frontend-Assignment 🚀🚀</p>
+# <p  align="center">PremiseHQ-Frontend-Assignment 🚀🚀</p>
 
 ### Installation 💻
 
@@ -37,4 +37,4 @@ or npm
 3. CSS
 
 <p  align="center"  bold> </p>
-# Task
+# PremiseHQ-Frontend Task
