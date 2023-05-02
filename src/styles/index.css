@@ -26,3 +26,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #eef1f7;
 }
+.App {
+  display: flex;
+  justify-content: center;
+}
