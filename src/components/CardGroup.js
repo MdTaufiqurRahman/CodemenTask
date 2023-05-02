@@ -16,17 +16,17 @@ export const CardGroup = (props) => {
     <>
       <SearchFeature setSearchData={setSearchData} />
       <div className="cardGroup">
-        {searchData.map((data) => {
+        {searchData?.map((data) => {
           return (
             <CommonCard>
               <CardBody>
                 {/* label  */}
                 <p
                   className={
-                    data.originType === "Automated" ? "automated" : "manual"
+                    data?.originType === "Automated" ? "automated" : "manual"
                   }
                 >
-                  {data.originType === "Automated" ? (
+                  {data?.originType === "Automated" ? (
                     <>
                       <img className="icon-image" src={BoltIcon} alt="" />
                       Automated
@@ -38,10 +38,10 @@ export const CardGroup = (props) => {
                 </p>
 
                 {/* card title  */}
-                <span className="title">{data.name}</span>
+                <span className="title">{data?.name}</span>
 
                 {/* intents  */}
-                <span className="intents">{data.intents} Intents</span>
+                <span className="intents">{data?.intents} Intents</span>
 
                 <ButtonGroup>
                   <CommonButton text="View" type="General" />
