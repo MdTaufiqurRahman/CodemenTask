@@ -54,6 +54,11 @@ export const CardGroup = (props) => {
             </CommonCard>
           );
         })}
+        {searchData?.length === 0 && (
+          <div className="no-data">
+            <p>No Data Found</p>
+          </div>
+        )}
       </div>
     </>
   );
